@@ -1,4 +1,4 @@
-# Funktionen einfach erklärt – ohne mathematische Formeln
+# Funktionen einfach erklärt – vom Alltag zur mathematischen Definition
 
 ## 1. Was ist eine Funktion?
 
@@ -155,3 +155,88 @@ Kurz geschrieben:
 > **Zeichenlänge: Wörter → Anzahlen**
 
 Jedem Wort wird genau eine Zeichenanzahl zugeordnet. Verschiedene Wörter können dieselbe Länge besitzen.
+
+## 7. Die formale Definition einer Funktion
+
+Nachdem wir Funktionen zunächst ohne Formeln betrachtet haben, können wir die mathematische Schreibweise nun aus den bekannten Bestandteilen ableiten.
+
+### 7.1 Name, Definitionsbereich und Wertebereich
+
+Eine Funktion besitzt einen Namen, einen Definitionsbereich und einen Wertebereich. Das wird kurz so geschrieben:
+
+\[
+f\colon D \to W
+\]
+
+Die Zeichen bedeuten:
+
+- **f** ist der frei gewählte Name der Funktion.
+- **D** ist der Definitionsbereich mit allen erlaubten Eingaben.
+- **W** ist der Wertebereich mit allen möglichen Ausgaben.
+- Der Pfeil zeigt, dass die Funktion Elemente aus D Elementen aus W zuordnet.
+
+### 7.2 Beispiele mathematischer Funktionen
+
+#### 7.2.1 Eine Zahl quadrieren
+
+Die Funktion erhält eine Zahl und gibt deren Quadrat zurück:
+
+\[
+f(x)=x^2
+\]
+
+Dabei ist **x** das Argument und **f(x)** der Rückgabewert.
+
+Beispiele:
+
+- Für die Eingabe 2 ist die Ausgabe 4.
+- Für die Eingabe −3 ist die Ausgabe 9.
+- Für die Eingabe 0 ist die Ausgabe 0.
+
+Die Funktion zeigt auch, dass unterschiedliche Eingaben denselben Rückgabewert haben dürfen: Sowohl 3 als auch −3 werden der Zahl 9 zugeordnet.
+
+#### 7.2.2 Den Umfang eines Kreises berechnen
+
+Diese Funktion erhält den Radius eines Kreises und gibt dessen Umfang zurück:
+
+\[
+U(r)=2\pi r
+\]
+
+Dabei steht:
+
+- **U** für den Namen der Funktion,
+- **r** für den Radius und damit für das Argument,
+- **U(r)** für den berechneten Umfang.
+
+Als Radius sind nur Zahlen größer oder gleich null sinnvoll. Der Definitionsbereich muss daher passend zur Bedeutung der Funktion gewählt werden.
+
+#### 7.2.3 Eine Zahl verdoppeln
+
+Die Funktion erhält eine Zahl und gibt das Doppelte dieser Zahl zurück:
+
+\[
+d(x)=2x
+\]
+
+Beispiele:
+
+- Aus 3 wird 6.
+- Aus 10 wird 20.
+- Aus −2 wird −4.
+
+#### 7.2.4 Den absoluten Wert bestimmen
+
+Der absolute Wert beschreibt den Abstand einer Zahl von null. Das Ergebnis ist daher niemals negativ:
+
+\[
+a(x)=|x|
+\]
+
+Beispiele:
+
+- Aus 5 wird 5.
+- Aus −5 wird ebenfalls 5.
+- Aus 0 wird 0.
+
+Diese Beispiele zeigen: Eine mathematische Funktion erhält ein oder mehrere Argumente aus ihrem Definitionsbereich und erzeugt nach einer festgelegten Vorschrift einen Rückgabewert aus ihrem Wertebereich.
