@@ -164,9 +164,9 @@ Nachdem wir Funktionen zunächst ohne Formeln betrachtet haben, können wir die 
 
 Eine Funktion besitzt einen Namen, einen Definitionsbereich und einen Wertebereich. Das wird kurz so geschrieben:
 
-\[
-f\colon D \to W
-\]
+$$
+f: D \rightarrow W
+$$
 
 Die Zeichen bedeuten:
 
@@ -181,9 +181,9 @@ Die Zeichen bedeuten:
 
 Die Funktion erhält eine Zahl und gibt deren Quadrat zurück:
 
-\[
+$$
 f(x)=x^2
-\]
+$$
 
 Dabei ist **x** das Argument und **f(x)** der Rückgabewert.
 
@@ -199,9 +199,9 @@ Die Funktion zeigt auch, dass unterschiedliche Eingaben denselben Rückgabewert 
 
 Diese Funktion erhält den Radius eines Kreises und gibt dessen Umfang zurück:
 
-\[
+$$
 U(r)=2\pi r
-\]
+$$
 
 Dabei steht:
 
@@ -215,9 +215,9 @@ Als Radius sind nur Zahlen größer oder gleich null sinnvoll. Der Definitionsbe
 
 Die Funktion erhält eine Zahl und gibt das Doppelte dieser Zahl zurück:
 
-\[
+$$
 d(x)=2x
-\]
+$$
 
 Beispiele:
 
@@ -229,9 +229,9 @@ Beispiele:
 
 Der absolute Wert beschreibt den Abstand einer Zahl von null. Das Ergebnis ist daher niemals negativ:
 
-\[
+$$
 a(x)=|x|
-\]
+$$
 
 Beispiele:
 
